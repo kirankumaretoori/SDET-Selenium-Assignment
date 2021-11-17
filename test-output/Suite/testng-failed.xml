@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://opensource-demo.orangehrmlive.com/"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="assignment.TC8ValidateAllTabs">
+        <methods>
+          <include name="LeaveTab"/>
+          <include name="ValidatingAdminTab"/>
+          <include name="setUp"/>
+          <include name="Directory"/>
+          <include name="loadpages"/>
+          <include name="tearDown"/>
+          <include name="Miantenance"/>
+          <include name="PIMTab"/>
+        </methods>
+      </class> <!-- assignment.TC8ValidateAllTabs -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
